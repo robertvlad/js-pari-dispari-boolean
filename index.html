@@ -12,22 +12,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <form class="p-5">
-                        <div class="form-group">
+                    <div class="p-5 row">
+                        <div>
                             <label for="user-name">Seleziona un numero da 1 a 5</label>
-                            <input type="number" class="form-control" id="user-num" name="user-name" placeholder="Inserisci il tuo numero">
+                            <input class="col-12" type="number" id="user-num" name="user-num" placeholder="Inserisci il tuo numero">
                         </div>
-                        <div class="form-group my-4">
+                        <div class="col-12 my-4">
                             <label for="pari-disperi">Seleziona se il risultato deve essere pari o dispari</label>
-                            <select name="pari-dispari" id="pari-dispari" class="form-control">
+                            <select class="col-12" name="pari-dispari" id="pari-dispari">
                                 <option value="pari">Pari</option>
                                 <option value="dispari">Dispari</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-success">Gioca</button>
+                        <div class="col-12">
+                            <button type="submit" id="btn-controlla" class="btn btn-success">Gioca</button>
                         </div>
-                    </form>
+                    </div>
                     <div class="p-5">
                         <p id="risultato">
                             
